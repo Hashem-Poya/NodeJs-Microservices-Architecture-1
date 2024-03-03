@@ -22,5 +22,5 @@ app.get('/events', (req, res) => {
 });
 
 app.listen(4005, () => {
-  ('Event bus is listening on Port 4005');
+  console.log('Event bus is listening on Port 4005');
 });
