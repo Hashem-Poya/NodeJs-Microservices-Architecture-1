@@ -1,0 +1,15 @@
+# Ignore node_modules folder in individual projects
+client/node_modules/
+posts/node_modules/
+comments/node_modules/
+event-bus/node_modules/
+moderation/node_modules/
+query/node_modules/
+
+# Ignore project-specific package lock files
+client/package-lock.json
+posts/package-lock.json
+comments/package-lock.json
+event-bus/package-lock.json
+moderation/package-lock.json
+query/package-lock.json
