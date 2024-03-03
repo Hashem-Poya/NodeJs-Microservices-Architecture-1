@@ -32,10 +32,10 @@ app.post('/posts', async (req, res) => {
 });
 
 app.post('/events', (req, res) => {
-  'Event is received: ', req.body.type;
+  console.log('Event is received: ', req.body.type);
   res.send({});
 });
 
 app.listen(4000, () => {
-  ('Posts server is listening on port 4000');
+  console.log('Posts server is listening on port 4000');
 });
